@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <link rel="stylesheet" href="styles/site.css">
+</head>
+<body>
+
+  <section>
+
+    <win-counter wins="90"></win-counter>
+
+    <div class="play-area">
+
+      <div class="step-1">
+
+        <div class="paper"></div>
+
+        <div class="scissors"></div>
+
+        <div class="rock"></div>
+
+      </div>
+
+      <div class="step-2">
+
+        <div class="user-pick">
+          <label>YOU PICKED</label>
+          <div class="item-picked" id="user-pick"></div>
+        </div>
+
+        <div class="result">
+          <label id="result-lbl">YOU WIN</label>
+          <button>PLAY AGAIN</button>
+        </div>
+
+        <div class="house-pick">
+          <label>THE HOUSE PICKED</label>
+          <div class="item-picked" id="house-pick"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <button>RULES</button>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Omar Larrion Mercado</a>.
+  </div>
+
+  <script type="module" src="components/contador.js"></script>
+</body>
+</html>
